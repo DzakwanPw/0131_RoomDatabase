@@ -49,7 +49,9 @@ dependencies {
 
     //icons
     implementation(libs.compose.icon)
-    //
+    //Room
+    implementation(libs.bundles.room)
+    ksp(libs.room.compiler)
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
