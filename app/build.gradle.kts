@@ -48,7 +48,7 @@ dependencies {
     testImplementation(libs.junit)
 
     //icons
-    implementation(libs.compose.icon)
+    implementation(libs.compose.icons)
     //Room
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
