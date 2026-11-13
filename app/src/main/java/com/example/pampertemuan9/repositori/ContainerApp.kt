@@ -2,7 +2,7 @@ package com.example.pampertemuan9.repositori
 
 
 import android.content.Context
-import com.example.roomdb.room.DatabaseSiswa
+import com.example.pampertemuan9.room.DatabaseSiswa
 
 interface ContainerApp {
     val repositoriSiswa : RepositoriSiswa
