@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pampertemuan9.ui.theme.PAMPertemuan9Theme
-import com.example.pampertemuan9.uicontroller.SiswaApp
+import com.example.pampertemuan9.view.uicontroller.SiswaApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
